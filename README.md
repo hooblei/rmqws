@@ -8,6 +8,8 @@ A RabbitMQ workshop and playground.
 If not already installed - install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 and [Varagnt](https://www.vagrantup.com/docs/installation/).
 
+> Please note that VirtualBox 5.1 is required to run this VM
+
 With VirtualBox and Varagnt installed, run `vagrant up` within the current
 directory, to fetch and initialize the virtual mashine.
 
