@@ -43,7 +43,7 @@ After installing the pecl extension, you have to enable it manually. Sadly a
 `sudo echo "extension=amqp.so" >> /etc/php5/cli/conf.d/30-amqp.ini` doesn't
 work and you have to create and edit the file by your self ...
 
-    vagrant@debian-8:~$ sudo vim/nano/whatever /etc/php/cli/conf.d/99-amqp.ini
+    vagrant@debian-8:~$ sudo vim/nano/whatever /etc/php5/cli/conf.d/99-amqp.ini
 
 After that, a check for the `amqp` extension should succeed
 
